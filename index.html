@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="form-body">
+        <form action="">
+            <h1 class="main_heading">Payment Form</h1>
+            <h2>Contact Information</h2>
+            <p>Name: <input type="text" name="name" id="name" placeholder="Enter your name" required></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    Male <input type="radio" name="gender" id="male" required>
+                    Female <input type="radio" name="gender" id="female" required>
+                </p>
+            </fieldset>
+            <p>Address: <textarea name="address" id="address" cols="100" rows="8"
+                 placeholder="Enter your address"></textarea></p>
+            <p>Email: <input type="email" name="email" id="email" placeholder="Enter your email" required></p>
+            <p>Pincode: <input type="number" name="pincode" id="pincode" placeholder="Enter your pincode" required></p>
+
+            <h2>Payment Information</h2>
+
+            <p> Card Type
+                <select name="card_type" id="card_type" required>
+                    <option value="">--Select Card type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">MasterCard</option>
+                    <option value="VirtualCard">VirtualCard</option>
+                </select>
+            </p>
+
+            <p>
+                Card number: <input type="number" name="card_number" id="card_number"
+                placeholder="Enter your card number" required>
+            </p>
+
+            <p> Expiry date
+                <select name="Expirydate" id="Expirydate" required>
+                    <option value="">--Select Year--</option>
+                    <option value="Year">2024</option>
+                    <option value="Year">2025</option>
+                    <option value="Year">2026</option>
+                    <option value="Year">2027</option>
+                    <option value="Year">2028</option>
+                    <option value="Year">2029</option>
+                    <option value="Year">2030</option>
+                </select>
+            </p>
+
+            <p>
+                Card number: <input type="number" name="CVV_number" id="CVV_number"
+                placeholder="Enter your CVV" required>
+            </p>
+
+            <input type="submit">
+
+        
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
